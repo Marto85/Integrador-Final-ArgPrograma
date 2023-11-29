@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const TaskItem = ({ task, completarTask, borrarTask, editarTask }) => {
   const [isEditing, setEditing] = useState(false);
